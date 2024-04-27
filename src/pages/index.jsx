@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import { image, homeData } from "@/consts/data";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -100,15 +101,15 @@ export default function Home() {
               <div className="someNo">{homeData.ResearcherID}</div>
             </div>
             <div className="links px-4 py-2">
-              <a href={homeData.ResearchGateLink} style={{ color: "blue" }}>
+              <Link href={homeData.ResearchGateLink} style={{ color: "blue" }}>
                 Research Gate
-              </a>
-              <a
+              </Link>
+              <Link
                 href={homeData.googleScholar}
                 style={{ color: "rgb(255, 102, 0)" }}
               >
                 Google Scholar
-              </a>
+              </Link>
             </div>
           </div>
         </div>

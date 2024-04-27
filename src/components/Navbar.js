@@ -36,7 +36,7 @@ const Navbar = () => {
               </div>
               {/* LOGO  */}
 
-              <a
+              <Link
                 href="/"
                 className="flex items-center space-x-3 rtl:space-x-reverse"
               >
@@ -47,7 +47,7 @@ const Navbar = () => {
                 >
                   {navName}
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div>
