@@ -2,7 +2,7 @@
 export const image = ""
 
 
-export const navName = "Soumendu Chakraborty"
+export const navName = "Vikas kumar Tiwari"
 
 export const pages = [
     {
@@ -83,7 +83,7 @@ export const educationData = {
         },
         {
             name: "B.Tech.(Information Technology)",
-            institute: "nstitute of Engineering and Technology Dr. RML Avadh University Ayodhya India .",
+            institute: "Institute of Engineering and Technology Dr. RML Avadh University Ayodhya India .",
             completionYear: "2018",
         },
     ]
