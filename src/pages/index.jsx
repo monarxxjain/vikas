@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="mt-24">
-        <div className="mainn md:flex align-middle justify-center px-40">
+        <div className="mainn md:flex align-middle justify-center md:px-40 px-6">
           <div className="images flex md:block justify-center">
             <Image
               height={200}

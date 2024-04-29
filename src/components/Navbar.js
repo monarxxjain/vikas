@@ -42,7 +42,7 @@ const Navbar = () => {
               >
                 <Image src={"/soumendu.jpg"} width={40} height={100} className="h-8" alt="face" />
                 <span
-                  className="self-center text-2xl font-semibold whitespace-nowrap "
+                  className="self-center md:text-2xl font-semibold whitespace-nowrap "
                   style={{ fontFamily: "Playfair Display", fontWeight: "400" }}
                 >
                   {navName}

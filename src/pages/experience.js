@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div>
       <Navbar/>
-      <section className='px-40 flex flex-col gap-6 mt-24'>
+      <section className='md:px-40 px-6 flex flex-col gap-6 mt-24'>
         {experienceData.map((data, id) => {
           return(
             <div key={id}>

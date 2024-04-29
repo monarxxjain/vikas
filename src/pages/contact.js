@@ -6,7 +6,7 @@ const contact = () => {
     return (
         <div>
             <div><Navbar /></div>
-            <section className='px-40 flex flex-col gap-6 mt-28 text-green-900'>
+            <section className='md:px-40 px-6 flex flex-col gap-6 mt-28 text-green-900'>
                 <h1 class="text-2xl font-bold mb-4">Contact Information for Vikas Kumar Tiwari</h1>
                 <div class="contact-info">
                     <p class="mb-2"><span class="font-bold">Email:</span> <a href="mailto:vikasiet49@gmail.com" class="text-blue-500">vikasiet49@gmail.com</a></p>
