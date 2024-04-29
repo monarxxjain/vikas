@@ -96,20 +96,7 @@ export default function Home() {
                 color: "rgb(105, 115, 53",
               }}
             >
-              <div className="someNo">{homeData.orc}</div>
-              <div className="someNo">{homeData.scorpus}</div>
-              <div className="someNo">{homeData.ResearcherID}</div>
-            </div>
-            <div className="links px-4 py-2">
-              <Link href={homeData.ResearchGateLink} style={{ color: "blue" }}>
-                Research Gate
-              </Link>
-              <Link
-                href={homeData.googleScholar}
-                style={{ color: "rgb(255, 102, 0)" }}
-              >
-                Google Scholar
-              </Link>
+              <div className="someNo">{`ResearcherID `+homeData.ResearcherID}</div>
             </div>
           </div>
         </div>

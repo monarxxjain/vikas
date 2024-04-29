@@ -30,48 +30,61 @@ export const pages = [
         path: "/awards"
     },
     {
-        name: "Students",
-        path: "/students"
+        name: "Collaborators",
+        path: "/collaborators"
     },
     {
-        name: "Announcements",
-        path: "/announcements"
+        name: "Contact",
+        path: "/contact"
     },
 ]
 
 
 
 export const homeData = {
-    name : "Dr. Soumendu Chakraborty",
-    post : "Assistant Professor",
+    name: "Vikas kumar Tiwari",
+    post: "Research Scholar",
     department: "Department of Computer Science",
     college: "Indian Institute of Information Technology Lucknow, India",
-    bio: " Soumendu Chakraborty received his B.E. degree in Information Technology from the University Institute of Technology, University of Burdwan, Barddhaman, West Bengal, INDIA. He completed his M.Tech. in Computer Science and Engineering from GLA University, Mathura, India. He has received his Ph.D. in Information Technology from the Indian Institute of Information Technology, Allahabad, U.P., INDIA. He has 15 years of teaching and research experience. He is currently working as an Assistant Professor at the Indian Institute of Information Technology, Lucknow, U.P., INDIA.  He has more than 20 research publications in journals and conferences of repute. His research interests include Computer Vision, Machine Learning, Deep Learning, Image Processing, Biometric Systems, Image Stegnography and Pattern Recognition.",
-    orc: "orcid.org/0000-0002-8778-8229",
-    scorpus: "55627677000",
-    ResearcherID : "ABA-2031-2020",
-    ResearchGateLink: "https://www.researchgate.net/profile/Soumendu-Chakraborty",
-    googleScholar: "https://scholar.google.co.in/citations?user=PGLT85IAAAAJ&hl=en"
+    bio: `  I,Vikas Kumar Tiwari , Research Scholar in the Department of Computer
+    Science at Indian Institute of Information Technology Lucknow, India Under the
+    guidance of Dr.Saurabh Shukla and Dr Naveen Saini. I have worked as an Software
+    Engineer in E-Solutions at Greater Noida. I earned my M.Tech in the Department of
+    Information Technology from Institute of Engineering and Technology Dr. RML Avadh
+    University Ayodhya further embellished with the prestigious Gold Medal in March 2021,
+    presented by UP Governor Mrs. Anandiben Patel. During my academic pursuits, I had
+    the privilege of collaborating with distinguished mentors such as Dr. Samridhi Singh and
+    Dr. Upendra Kumar. My journey into research was initiated through the rigorous
+    preparation and subsequent success in the Graduate Aptitude Test in Engineering
+    (GATE) exams of 2018 and 2019.My research interests endeavors Natural Language
+    Processing, Artificial Intelligence, Machine Learning, Deep Learning, Biometric
+    Systems,driven by a fervent interest in their practical implementations.
+    `,
+    orc: "",
+    scorpus: "",
+    ResearcherID: "RCS23102",
+    ResearchGateLink: "",
+    googleScholar: ""
 }
 
 export const educationData = {
-    degrees : [
+    degrees: [
         {
-            name: "Ph.D.(Information Technology)",
-            institute: "Indian Institute of Information Technology, Allahabad, U.P., India",
+            name: "Ph.D.(Computer Science )",
+            institute: "Indian Institute of Information Technology, Lucknow, U.P., India",
+            completionYear: "2023",
+            thesis: "AMLSW"
+        },
+        {
+            name: "M.Tech.(IT)",
+            institute: "Institute of Engineering and Technology Dr. RML Avadh University Ayodhya india.",
+            completionYear: "2021",
+            thesis: "Palm Vein Technology using Blood Vessels Uses in Security"
+        },
+        {
+            name: "B.Tech.(Information Technology)",
+            institute: "nstitute of Engineering and Technology Dr. RML Avadh University Ayodhya India .",
             completionYear: "2018",
-            thesis: "Facial image description for recognition and retrieval"
-        },
-        {
-            name: "M.Tech.(CSE)",
-            institute: "GLA University, Mathura, U.P., India, A NAAC `A` University, 12B University by UGC.",
-            completionYear: "2013",
-            thesis: "High Capacity Irreversible Image Steganography"
-        },
-        {
-            name: "B.E.(Information Technology)",
-            institute: "University Institute of Technology, Burdwan University, Burddhaman, India",
-            completionYear: "2005",
         },
     ]
 }
@@ -80,25 +93,66 @@ export const experienceData = [
     {
         title: "Work Experience",
         points: [
-            "Presently working as an Assistant Professor (Grade II) at the Indian Institute of Information Technology, Lucknow, U.P., India, from January 8, 2018.",
-            "Assistant Professor (Grade II) from December 01, 2017 to January 5, 2018 at Jaypee University of Information Technology, Waknaghat, H.P., India.",
-            "Assistant Professor from January 31, 2008 to August 15, 2014 at GLA University, Mathura, U.P., India.",
-            "Lecturer from October 21, 2005 to January 23, 2008 at R.V.S. College of Engineering and Technology, Jamshedpur, Jharkhand, India.",
+            `Presently working as an Technical Assistance at the Indian Institute of Information
+            Technology, Lucknow, U.P., India, from January 31, 2023.`,
+            `Invited as a Technical Assistance and trainer With Dr Naveen Saini in a one-month
+            short term course on “Computational Training Program '' from June 01-30, 2023 at
+            NIPER Raebareli, Uttar Pradesh`,
+            ` Software Engineer from May , 2021 to November , 2022 at E-Solutions Sector-63
+            Greater noida India.
+            `,
         ]
     },
     {
-        title: "Administrative Responsibilities",
+        title: "Professional Activity",
         points: [
-            "In-Charge, Examinations (2022- Till Date), Indian Institute of Information Technology Lucknow",
-            "Member, Institute Complaint Committee (2023- Till Date), Indian Institute of Information Technology Lucknow ",
-            "HOD(CS) (2020-2021), Indian Institute of Information Technology Lucknow",
-            "Chairperson, Technical Committee (2018-2021), Indian Institute of Information Technology Lucknow",
-            "Chairperson, Discipline Committee (2018-2021), Indian Institute of Information Technology Lucknow",
-            "Proctor (2018-2021), Indian Institute of Information Technology Lucknow",
-            "Member, Institute Purchase Committee (2018-2021), Indian Institute of Information Technology Lucknow",
-            "In-Charge Timetable (2018-2020), Indian Institute of Information Technology Lucknow",
-            "Member, Committee for Medical Policy, Indian Institute of Information Technology Lucknow",
-            "In-Charge, Course Structure B.Tech. (CS, CS-AI) (2018-2021), Indian Institute of Information Technology Lucknow",
+            "IEEE Systems Journal",
+            "International Conference on Control, Computing, Communication and Materials 2024",
+            `Invited Talks-Biometrics and machine learning , For the course of Bachelor of Technology Students ; Venue: Kalpana Chawla, IET, Ayodhya, U.P., India.
+            `,
         ]
     },
 ]
+
+export const subjects = [
+    "Artificial Intelligence",
+    "Compiler Design",
+    "Computer Architecture Organization",
+    "Deep Learning",
+    "Operating System",
+    "Object Oriented Programming",
+    "Computer Network",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Database Management System",
+    "Data Structures",
+    "Mathematics",
+    "Discrete Mathematics",
+    "Research Methodology Technical Writing"
+];
+
+export const publicationData = [
+    `[1] Paper Title- VkTiwari ,Samridhi Singh “Palm Vein Technology Blood Vessels Uses in Security”IJSRD -
+    International Journal for Scientific Research & Development— Vol. 8, Issue 1, 2020 — ISSN (online): 2321-0613`,
+    `[2] Title: "Vascular Security: Leveraging Palm Vein Authentication for Enhanced Protection" | Funding Agency: DST (Inspire) | As: PI(Scholar) | Project Id: DST/INSPIRE/03/2022/003579 | Status: Completed
+    `
+]
+
+export const achievements = [
+    "Received PhD Course Work Certificate from Institute of Information Technology, Lucknow, India",
+    "Received DST INSPIRE Offer Letter (2022) from Ministry of Home & Affairs, Government of INDIA",
+    "Received prestigious Gold Medal in March 2021, presented by UP Governor Mrs. Anandiben Patel",
+    "Qualified GATE in 2018, 2019",
+    "E-Solutions Certified Software Engineer in 2022",
+    "Recognized by Vice Chancellor Manoj Dixit for outstanding leadership and batting prowess at Dr. Ram Manohar Lohia Avadh University Ayodhya in 2018"
+];
+
+export const professors = [
+    "Dr. Saurabh Shukla (IITL)",
+    "Dr. Naveen Saini (IIITA)",
+    "Dr. Upendra Kumar (IETL)",
+    "Dr. Vineet Singh (IETA)",
+    "Dr. Samridhi Singh (IETA)",
+    "Prof. R P Mishra (IETA)",
+    "Dr. Sudheer Singh (IETA)"
+];
