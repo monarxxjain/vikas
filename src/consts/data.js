@@ -107,6 +107,7 @@ export const experienceData = [
             `Technical Assistant under the guidance of Dr. Samridhi Singh in my Masters of Technology at IET Ayodhya from Sept 2018 to Mar 2021 Ayodhya, Uttar Pradesh.
             `
             ,
+            `Invited as a Co-oridnator and trainer in a one-month short term course on 'Biometrics and Machine learning methods ' from June 2019, July 2019 at Kalpana Chawla Sabhagar, IET, Ayodhya, U.P.`
         ]
     },
     {
@@ -114,8 +115,7 @@ export const experienceData = [
         points: [
             "IEEE Systems Journal",
             "International Conference on Control, Computing, Communication and Materials 2024",
-            `Invited Talks-Biometrics and machine learning , For the course of Bachelor of Technology Students ; Venue: Kalpana Chawla, IET, Ayodhya, U.P., India.
-            `,
+            
         ]
     },
 ]
