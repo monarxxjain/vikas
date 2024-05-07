@@ -11,7 +11,7 @@ const collaborators = () => {
           {professors.map((data, id) => {
             return (
               <li key={id}>
-                {data}
+                <a href={data.link} className='underline'>{data.name}</a>
               </li>
             )
           })}

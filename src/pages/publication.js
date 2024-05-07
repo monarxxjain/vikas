@@ -10,7 +10,7 @@ const publication = () => {
         <ol>
           {publicationData.map((data, id) => {
             return (
-              <li key={id}>
+              <li className='italic' key={id}>
                 {data}
               </li>
             )

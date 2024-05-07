@@ -83,7 +83,33 @@ export default function Home() {
                   color: "rgb(105, 115, 53",
                 }}
               >
-                <b>Biography -</b> {homeData.bio}
+                <b>Biography -</b>
+                <span>
+                  Myself, Vikas Kumar Tiwari , Research Scholar in the Department of Computer
+                  Science at <a className="px-1 underline " href="https://iiitl.ac.in/"> Indian Institute of Information Technology Lucknow</a>, India Under the
+                  guidance of
+                </span>
+                <a className="px-1 underline" href="https://iiitl.ac.in/index.php/personnel/dr-saurabh-shukla/">Dr.Saurabh Shukla</a>
+                <span>and</span>
+                <a className="px-1 underline " href="https://sites.google.com/view/nsaini">Dr Naveen Saini.</a>
+                <span>
+                  I have worked before joining IIIT Lucknow as an Software
+                  Engineer in E-Solutions at Greater Noida. I earned my M.Tech in the Department of
+                  Information Technology from
+                </span>
+                <a className="px-1 underline " href="https://www.rmlau.ac.in/new/IET.aspx">Institute of Engineering and Technology Dr. RML Avadh University Ayodhya </a>
+                <span>
+                  further embellished with the prestigious Gold Medal in March 2021,
+                  presented by UP Governor Mrs. Anandiben Patel. During my academic pursuits, I had
+                  the privilege of collaborating with distinguished mentors such as Dr. Samridhi Singh and
+                </span>
+                <a className="px-1 underline " href="https://www.ietlucknow.ac.in/people/ukumar">Dr. Upendra Kumar.</a>
+                <span>My journey into research was initiated through the rigorous
+                  preparation and subsequent success in the Graduate Aptitude Test in Engineering
+                  (GATE) exams of 2018 and 2019.My research interests endeavors Natural Language
+                  Processing, Artificial Intelligence, Machine Learning, Deep Learning, Biometric
+                  Systems,driven by a fervent interest in their practical implementations.
+                </span>
               </div>
             </div>
             <div
@@ -96,7 +122,7 @@ export default function Home() {
                 color: "rgb(105, 115, 53",
               }}
             >
-              <div className="someNo">{`ResearcherID `+homeData.ResearcherID}</div>
+              <div className="someNo">{`ResearcherID ` + homeData.ResearcherID}</div>
             </div>
           </div>
         </div>
