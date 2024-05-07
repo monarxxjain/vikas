@@ -143,7 +143,6 @@ export const publicationData = [
 ]
 
 export const achievements = [
-    "Received DST INSPIRE Offer Letter (2022) from Ministry of Home & Affairs, Government of INDIA after completion of my masters",
     "Received prestigious Gold Medal in March 2021, presented by UP Governor Mrs. Anandiben Patel",
     "Qualified GATE in 2018, 2019",
     "E-Solutions Certified Software Engineer in 2022",
@@ -154,8 +153,9 @@ export const professors = [
     {name:"Dr. Saurabh Shukla (IITL)",link:"https://iiitl.ac.in/index.php/personnel/dr-saurabh-shukla/"},
     {name:"Dr. Naveen Saini (IIITA)",link:"https://sites.google.com/view/nsaini"},
     {name:"Dr. Upendra Kumar (IETL)",link:"https://www.ietlucknow.ac.in/people/ukumar"},
+    {name:"Dr. Sudheer Singh (IETA)",link:"https://www.rmlau.ac.in/new/FacultyProfile.aspx?id=RML10065&f=DEPT023"},
     {name:"Dr. Vineet Singh (IETA)",link:"#"},
     {name:"Dr. Samridhi Singh (IETA)",link:"#"},
+    {name:"Er. Paritosh Tripathi",link:"#"},
     {name:"Prof. R P Mishra (IETA)",link:"#"},
-    {name:"Dr. Sudheer Singh (IETA)",link:"https://www.rmlau.ac.in/new/FacultyProfile.aspx?id=RML10065&f=DEPT023"},
 ];
